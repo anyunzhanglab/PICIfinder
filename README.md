@@ -9,14 +9,14 @@ cd PICIfinder
 
 ### Requirements
 Before running PICIfinder, you need to install python packages and some tools:
-Bio.SeqIO
-FastaIO
-sklearn.ensemble
-sklearn.model_selection
-prokka
-prodigal
-hmmsearch
-diamond
+ Bio.SeqIO
+ FastaIO
+ sklearn.ensemble
+ sklearn.model_selection
+ prokka
+ prodigal
+ hmmsearch
+ diamond
 	
 ### Run PICIfinder 
 
