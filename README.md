@@ -4,21 +4,19 @@ PICIfinder is a tool that provide utilities to detect PICI directly from the Gra
 ### Download and install
 
 git clone https://github.com/anyunzhanglab/PICIfinder.git
+
 cd PICIfinder
 
 ### Requirements
-Before running PICIfinder, you need to install python packages and some tools.
-PICIfinder is written in Python and depends on the following packages:Bio.SeqIO.FastaIO，sklearn.ensemble，sklearn.model_selection
-	Python packages
-	Bio.SeqIO
-	FastaIO
-	sklearn.ensemble
-	sklearn.model_selection
-	.Tools
-	prokka
-	prodigal
-	hmmsearch
-	diamond
+Before running PICIfinder, you need to install python packages and some tools:
+Bio.SeqIO
+FastaIO
+sklearn.ensemble
+sklearn.model_selection
+prokka
+prodigal
+hmmsearch
+diamond
 	
 ### Run PICIfinder 
 
