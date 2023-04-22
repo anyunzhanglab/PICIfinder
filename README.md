@@ -1,13 +1,13 @@
 # PICIfinder
 PICIfinder is a tool that provide utilities to detect PICI directly from the Gram-positive bacteria genome.It is mainly based on the conserved pattern features of PICI, and uses hmmsearch to compare the input genome sequences to find the fragments that match the PICI pattern.The detection algorithm consists of four parts: (1) Prediction of candidate fragments based on co-localization of gene modules.(2) Distinguishing false positives of PICI candidate fragments.(3).Range determination of PICI by random forest model.(4) Determination of the grade of PICI.
-Quick Start
-Download and install
+## Quick Start
+### Download and install
 
 git clone https://github.com/anyunzhanglab/PICIfinder.git
 cd PICIfinder
 .....
 
-Run PICIfinder 
+### Run PICIfinder 
 
 PICIfinder.py \
 	-i my.fasta \
@@ -28,7 +28,7 @@ PICIfinder is written in Python and depends on the following packages:Bio.SeqIO.
 	prodigal
 	hmmsearch
 	diamond
-PICIfinder Usage
+### PICIfinder Usage
 Usage: PICI_finder.py [OPTIONS]
 
 Options:
